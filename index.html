@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EKD ✉️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Opening Screen -->
+        <div id="opening">
+
+            <h1>Encouragement Kingdom Date</h1>
+
+            <p>This letter is my invitation for you.</p>
+
+            <div class="envelope">
+                ✉️
+            </div>
+
+            <button onclick="openLetter()">
+                Open The Letter
+            </button>
+
+        </div>
+
+
+        <!-- Letter -->
+        <div id="letter" class="hidden">
+
+            <div class="paper">
+
+                <h2>Dear Angelica Cabrera Pacal,</h2>
+
+                <p id="message"></p>
+
+                <p class="signature">
+                    — From your Brother: John Kenneth Macapanas!
+                </p>
+
+                <button onclick="showSurprise()">
+                    One More Thing...
+                </button>
+
+                <p id="surprise" class="hidden">
+                    ✨ You are the best lovingly Sister. ✨
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
